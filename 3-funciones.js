@@ -10,3 +10,19 @@
  */
 
 console.log('ejercicio 3') //no quitar este console.log, empezar debajo el ejercicio
+
+function parametros(num1 , num2, tipo  ) {   
+    
+if (tipo === "suma") {
+    console.log("la suma de ambos es:" + (num1 + num2));
+    
+}
+else if (tipo === "resta") {
+    console.log("la resta de ambos es:" + (num1 - num2));
+    
+}else{
+    console.log("operación desconocida");
+}
+}
+parametros(3 ,5 , "suma")
+parametros(3 ,5 , "resta")

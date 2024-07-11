@@ -12,3 +12,19 @@
  */
 
 console.log('ejercicio 1') //no quitar este console.log, empezar debajo el ejercicio
+
+let caracteres = window.prompt("introduce los siguientes caracteres _+  - * / ")
+
+if (caracteres === "+") {
+    console.log("sumar");
+}else if (caracteres === "-") {
+    console.log("restar");
+}
+ else if (caracteres === "*") {
+    console.log("multiplicar");
+}
+else if (caracteres === "/") {
+    console.log("dividir");
+}else{
+    console.log('no conozco esa operación');
+}
